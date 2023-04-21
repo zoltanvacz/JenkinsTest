@@ -6,13 +6,13 @@ pipeline{
             steps{
                 echo 'Hello Jenkin'
             }
-		}
-		stage('Verify Git Branch'){
+	}
+	stage('Verify Git Branch'){
             steps{
-                echo '$GIT_BRANCH'
+                echo "$GIT_BRANCH"
             }
         }
-		stage('Goodbye'){
+	stage('Goodbye'){
             steps{
                 echo 'Goodbye'
             }
