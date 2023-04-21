@@ -6,6 +6,10 @@ pipeline{
             steps{
                 echo 'Hello Jenkin'
             }
+		stage('Goodbye'){
+            steps{
+                echo 'Goodbye'
+            }
         }
     }
 }
