@@ -35,7 +35,7 @@ pipeline {
     }
 
     // Define the properties block outside the stages to make the 'parameters' variable available to the entire pipeline
-    properties([
+    options([
         parameters(parameters)
     ])
 }
